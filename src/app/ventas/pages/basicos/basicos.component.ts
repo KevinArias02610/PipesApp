@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-basicos',
-  templateUrl: './basicos.component.html',
-  styleUrls: ['./basicos.component.css']
+  templateUrl: './basicos.component.html'
 })
 export class BasicosComponent implements OnInit {
 
