@@ -8,6 +8,7 @@ import { VentasModule } from './ventas/ventas.module';
 
 import localeEsCol from '@angular/common/locales/es-CO';
 import { registerLocaleData } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 registerLocaleData(localeEsCol);
 
@@ -21,6 +22,7 @@ registerLocaleData(localeEsCol);
     
     SharedModule,
     VentasModule,
+    BrowserAnimationsModule
   ],
   providers: [{
     provide: LOCALE_ID, useValue: 'es-CO'
